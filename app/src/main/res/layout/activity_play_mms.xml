@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/content_title"
+        layout="@layout/title_toolbar"/>
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="收听"
+        android:textSize="30sp"
+        android:onClick="doStart"
+        />
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+        android:textSize="30sp"
+        android:onClick="doStop"
+        />
+</LinearLayout>

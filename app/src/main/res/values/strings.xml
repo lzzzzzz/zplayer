@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ZPlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="scheme_name">zpshare</string>
+    <string name="scheme_host">zplayer</string>
+    <string name="scheme_path">/mediaplayer</string>
+    <string name="scheme_port">1024</string>
+    <string name="search_video">本地视频</string>
+
+    <string name="mimeType_mp4">video/mp4</string>
+    <string name="mimeType_mpeg">video/mpeg</string>
+    <string name="mimeType_avi">video/x-msvideo</string>
+    <string name="mimeType_rmvb">audio/x-pn-realaudio</string>
+    <string name="mimeType_wmv">audio/x-ms-wmv</string>
+    <string name="mimeType_wav">audio/x-wav</string>
+    <string name="mimeType_wma">audio/x-ms-wma</string>
+
+    <!--lz_video_view-->
+    <string name="controller_description_last">上一集</string>
+    <string name="controller_description_next">下一集</string>
+    <string name="controller_description_back">快退</string>
+    <string name="controller_description_go">快进</string>
+    <string name="controller_description_play">暂停</string>
+    <string name="controller_description_fullscreen">暂停</string>
+</resources>

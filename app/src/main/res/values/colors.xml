@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 橙色 -->
+    <color name="color_orange">#f3930c</color>
+    <!-- 灰色 -->
+    <color name="text_grey_show">#818181</color>
+
+    <!-- calendar style-->
+    <color name="normal_day">#999999</color>
+    <color name="normal_day_over">#cccccc</color>
+    <color name="selected_day_background">#E75F49</color>
+    <color name="selected_day_text">#fff2f2f2</color>
+    <!-- 蓝色 -->
+    <color name="blue_normal">#169ADD</color>
+
+    <!-- theme背景 灰色 -->
+    <color name="color_background">#F6F6F6</color>
+    <!-- 半透明 -->
+    <color name="color_background_show">#50000000</color>
+    <!-- 灰色 -->
+    <color name="tab_fragment_line">#bebebe</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <!-- 暗灰色 -->
+    <color name="text_grey">#ebe4eb</color>
+    <!-- 橙色 -->
+    <color name="color_orange_driver">#ffa601</color>
+    <color name="bt_bg_normal">#ed9b02</color>
+    <!-- 灰色字体 -->
+    <color name="color_gray_text">#999999</color>
+
+    <!-- 验证码黄色字体 -->
+    <color name="color_codeYellow">#f8ab3e</color>
+
+    <color name="color_order_bg">#fffbf5</color>
+    <color name="color_ticket_text">#e95712</color>
+
+    <color name="color_show_text">#898989</color>
+    <!-- 灰黄色 -->
+    <color name="color_Yellow_grey">#ebe9e9</color>
+    <!-- dialog -->
+    <color name="itme_press_color">#ebebeb</color>
+
+    <!--灰色不可用button-->
+    <color name="color_button_enable_graw">#dfdfdf</color>
+
+    <!--  ***************************************************  -->
+    <color name="color_gray_text_3">#333333</color>
+    <color name="color_gray_text_6">#666666</color>
+    <color name="color_gray_text_7">#323232</color>
+    <color name="color_gray_d_3">#d3d3d3</color>
+    <color name="color_gray_f_3">#f3f3f3</color>
+    <color name="color_gray_f_5">#f5f5f5</color>
+    <color name="color_gray_f_6">#f6f6f6</color>
+    <color name="color_gray_text_hint">#d0d0d2</color>
+    <color name="color_bg_light_blue">#00bad6</color>
+    <color name="color_bg_dark_blue">#0367ef</color>
+    <color name="color_bg_dark_blue_tab">#3187fc</color>
+    <color name="color_text_dark_blue">#0368f3</color>
+    <color name="color_bg_light_red">#de0024</color>
+    <color name="color_bg_light_alpha">#ef8092</color>
+    <color name="color_gray_text_c_7">#c7c7c7</color>
+    <color name="color_gray_text_90">#909090</color>
+    <color name="color_red_text">#df0126</color>
+    <color name="color_yellow_text">#faeac8</color>
+    <color name="color_dark_yellow">#ffa601</color>
+    <color name="color_toast_text_yellow">#ff8e33</color>
+    <color name="colorbg_tablerow">#f7f7f7</color>
+    <color name="color_bg_login_title">#00000000</color>
+    <color name="color_order_item_bg">#f2f2f2</color>
+    <color name="color_gray_c_f">#cfcfcf</color>
+    <color name="color_green">#31c37c</color>
+</resources>

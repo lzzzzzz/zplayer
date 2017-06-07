@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_Yellow_grey"
+    tools:context=".activity.MainActivity">
+
+    <include
+        android:id="@+id/content_title"
+        layout="@layout/title_toolbar" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_movie_black"
+                android:gravity="center"
+                android:onClick="toScanner"
+                android:text="本地视频" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_my_library_music_black"
+                android:onClick="toScanMusic"
+                android:gravity="center"
+                android:text="本地歌曲" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_radio_black"
+                android:gravity="center"
+                android:text="网络电台"
+                android:onClick="toTestTalk"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_queue_black"
+                android:gravity="center"
+                android:onClick="toSeeVideoList"
+                android:text="其它" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

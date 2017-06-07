@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.zplayer.mc.test.TestMainActivity">
+    <include
+        android:id="@+id/content_title"
+        layout="@layout/title_toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px44"
+        android:layout_marginLeft="@dimen/px44"
+        android:textSize="@dimen/px42"
+        android:text="KotLin测试1"
+        android:onClick="toTestKotLin"/>
+</LinearLayout>
